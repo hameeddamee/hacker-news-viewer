@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' rel='stylesheet'/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Hacker News</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid text-center">
+          <h1>Hacker News Viewer</h1>
+      </div>
+    </nav>
+
+    <div id='main' class="container">
+      <div id='front_page'>
+         <div id='content' class='hidden'></div>
+         <div id='scrollText' class='hidden'>
+            <p class='lead'>Loading more contents...</p>
+            <i class="fa fa-angle-double-down fa-lg"></i>
+         </div>
+      </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" charset="utf-8"></script>
+    <script src="assets/js/news.js"></script>
+  </body>
+</html>
